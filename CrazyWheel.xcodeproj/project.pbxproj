@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4DD0C618832FEA00351867 /* BTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4DD0C518832FEA00351867 /* BTSCoreDataManager.m */; };
+		CED3362418815F1B00196AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362318815F1B00196AA2 /* Foundation.framework */; };
+		CED3362618815F1B00196AA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362518815F1B00196AA2 /* CoreGraphics.framework */; };
+		CED3362818815F1B00196AA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362718815F1B00196AA2 /* UIKit.framework */; };
+		CED3362A18815F1B00196AA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362918815F1B00196AA2 /* CoreData.framework */; };
+		CED3363018815F1B00196AA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED3362E18815F1B00196AA2 /* InfoPlist.strings */; };
+		CED3363218815F1B00196AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3363118815F1B00196AA2 /* main.m */; };
+		CED3363618815F1B00196AA2 /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3363518815F1B00196AA2 /* BTSAppDelegate.m */; };
+		CED3363918815F1B00196AA2 /* CrazyWheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED3363718815F1B00196AA2 /* CrazyWheel.xcdatamodeld */; };
+		CED3363B18815F1B00196AA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED3363A18815F1B00196AA2 /* Images.xcassets */; };
+		CED3364218815F1B00196AA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3364118815F1B00196AA2 /* XCTest.framework */; };
+		CED3364318815F1B00196AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362318815F1B00196AA2 /* Foundation.framework */; };
+		CED3364418815F1B00196AA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362718815F1B00196AA2 /* UIKit.framework */; };
+		CED3364518815F1B00196AA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED3362918815F1B00196AA2 /* CoreData.framework */; };
+		CED3364D18815F1B00196AA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED3364B18815F1B00196AA2 /* InfoPlist.strings */; };
+		CED3364F18815F1B00196AA2 /* CrazyWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3364E18815F1B00196AA2 /* CrazyWheelTests.m */; };
+		CED336591881614200196AA2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED336581881614200196AA2 /* Storyboard.storyboard */; };
+		CED3365C1881629500196AA2 /* BTSListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3365B1881629500196AA2 /* BTSListViewController.m */; };
+		CED3365F188162C200196AA2 /* BTSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3365E188162C200196AA2 /* BTSDetailViewController.m */; };
+		CED336621881635B00196AA2 /* BTSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CED336611881635B00196AA2 /* BTSCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED3364618815F1B00196AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED3361818815F1B00196AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED3361F18815F1B00196AA2;
+			remoteInfo = CrazyWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4DD0C418832FEA00351867 /* BTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSCoreDataManager.h; sourceTree = "<group>"; };
+		CE4DD0C518832FEA00351867 /* BTSCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSCoreDataManager.m; sourceTree = "<group>"; };
+		CED3362018815F1B00196AA2 /* CrazyWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3362318815F1B00196AA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CED3362518815F1B00196AA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CED3362718815F1B00196AA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CED3362918815F1B00196AA2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CED3362D18815F1B00196AA2 /* CrazyWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyWheel-Info.plist"; sourceTree = "<group>"; };
+		CED3362F18815F1B00196AA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED3363118815F1B00196AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED3363318815F1B00196AA2 /* CrazyWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyWheel-Prefix.pch"; sourceTree = "<group>"; };
+		CED3363418815F1B00196AA2 /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		CED3363518815F1B00196AA2 /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		CED3363818815F1B00196AA2 /* CrazyWheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrazyWheel.xcdatamodel; sourceTree = "<group>"; };
+		CED3363A18815F1B00196AA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CED3364018815F1B00196AA2 /* CrazyWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3364118815F1B00196AA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CED3364A18815F1B00196AA2 /* CrazyWheelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyWheelTests-Info.plist"; sourceTree = "<group>"; };
+		CED3364C18815F1B00196AA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED3364E18815F1B00196AA2 /* CrazyWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyWheelTests.m; sourceTree = "<group>"; };
+		CED336581881614200196AA2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CED3365A1881629500196AA2 /* BTSListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSListViewController.h; sourceTree = "<group>"; };
+		CED3365B1881629500196AA2 /* BTSListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSListViewController.m; sourceTree = "<group>"; };
+		CED3365D188162C200196AA2 /* BTSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSDetailViewController.h; sourceTree = "<group>"; };
+		CED3365E188162C200196AA2 /* BTSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSDetailViewController.m; sourceTree = "<group>"; };
+		CED336601881635B00196AA2 /* BTSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSCell.h; sourceTree = "<group>"; };
+		CED336611881635B00196AA2 /* BTSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED3361D18815F1B00196AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3362618815F1B00196AA2 /* CoreGraphics.framework in Frameworks */,
+				CED3362A18815F1B00196AA2 /* CoreData.framework in Frameworks */,
+				CED3362818815F1B00196AA2 /* UIKit.framework in Frameworks */,
+				CED3362418815F1B00196AA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3363D18815F1B00196AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3364218815F1B00196AA2 /* XCTest.framework in Frameworks */,
+				CED3364518815F1B00196AA2 /* CoreData.framework in Frameworks */,
+				CED3364418815F1B00196AA2 /* UIKit.framework in Frameworks */,
+				CED3364318815F1B00196AA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED3361718815F1B00196AA2 = {
+			isa = PBXGroup;
+			children = (
+				CED3362B18815F1B00196AA2 /* CrazyWheel */,
+				CED3364818815F1B00196AA2 /* CrazyWheelTests */,
+				CED3362218815F1B00196AA2 /* Frameworks */,
+				CED3362118815F1B00196AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED3362118815F1B00196AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED3362018815F1B00196AA2 /* CrazyWheel.app */,
+				CED3364018815F1B00196AA2 /* CrazyWheelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED3362218815F1B00196AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED3362318815F1B00196AA2 /* Foundation.framework */,
+				CED3362518815F1B00196AA2 /* CoreGraphics.framework */,
+				CED3362718815F1B00196AA2 /* UIKit.framework */,
+				CED3362918815F1B00196AA2 /* CoreData.framework */,
+				CED3364118815F1B00196AA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED3362B18815F1B00196AA2 /* CrazyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				CED3363418815F1B00196AA2 /* BTSAppDelegate.h */,
+				CED3363518815F1B00196AA2 /* BTSAppDelegate.m */,
+				CED3363A18815F1B00196AA2 /* Images.xcassets */,
+				CED3363718815F1B00196AA2 /* CrazyWheel.xcdatamodeld */,
+				CED3362C18815F1B00196AA2 /* Supporting Files */,
+				CED336581881614200196AA2 /* Storyboard.storyboard */,
+				CED3365A1881629500196AA2 /* BTSListViewController.h */,
+				CED3365B1881629500196AA2 /* BTSListViewController.m */,
+				CED3365D188162C200196AA2 /* BTSDetailViewController.h */,
+				CED3365E188162C200196AA2 /* BTSDetailViewController.m */,
+				CED336601881635B00196AA2 /* BTSCell.h */,
+				CED336611881635B00196AA2 /* BTSCell.m */,
+				CE4DD0C418832FEA00351867 /* BTSCoreDataManager.h */,
+				CE4DD0C518832FEA00351867 /* BTSCoreDataManager.m */,
+			);
+			path = CrazyWheel;
+			sourceTree = "<group>";
+		};
+		CED3362C18815F1B00196AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED3362D18815F1B00196AA2 /* CrazyWheel-Info.plist */,
+				CED3362E18815F1B00196AA2 /* InfoPlist.strings */,
+				CED3363118815F1B00196AA2 /* main.m */,
+				CED3363318815F1B00196AA2 /* CrazyWheel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED3364818815F1B00196AA2 /* CrazyWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED3364E18815F1B00196AA2 /* CrazyWheelTests.m */,
+				CED3364918815F1B00196AA2 /* Supporting Files */,
+			);
+			path = CrazyWheelTests;
+			sourceTree = "<group>";
+		};
+		CED3364918815F1B00196AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED3364A18815F1B00196AA2 /* CrazyWheelTests-Info.plist */,
+				CED3364B18815F1B00196AA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED3361F18815F1B00196AA2 /* CrazyWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3365218815F1B00196AA2 /* Build configuration list for PBXNativeTarget "CrazyWheel" */;
+			buildPhases = (
+				CED3361C18815F1B00196AA2 /* Sources */,
+				CED3361D18815F1B00196AA2 /* Frameworks */,
+				CED3361E18815F1B00196AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyWheel;
+			productName = CrazyWheel;
+			productReference = CED3362018815F1B00196AA2 /* CrazyWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED3363F18815F1B00196AA2 /* CrazyWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3365518815F1B00196AA2 /* Build configuration list for PBXNativeTarget "CrazyWheelTests" */;
+			buildPhases = (
+				CED3363C18815F1B00196AA2 /* Sources */,
+				CED3363D18815F1B00196AA2 /* Frameworks */,
+				CED3363E18815F1B00196AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED3364718815F1B00196AA2 /* PBXTargetDependency */,
+			);
+			name = CrazyWheelTests;
+			productName = CrazyWheelTests;
+			productReference = CED3364018815F1B00196AA2 /* CrazyWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED3361818815F1B00196AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = iButs;
+				TargetAttributes = {
+					CED3363F18815F1B00196AA2 = {
+						TestTargetID = CED3361F18815F1B00196AA2;
+					};
+				};
+			};
+			buildConfigurationList = CED3361B18815F1B00196AA2 /* Build configuration list for PBXProject "CrazyWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CED3361718815F1B00196AA2;
+			productRefGroup = CED3362118815F1B00196AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED3361F18815F1B00196AA2 /* CrazyWheel */,
+				CED3363F18815F1B00196AA2 /* CrazyWheelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED3361E18815F1B00196AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3363018815F1B00196AA2 /* InfoPlist.strings in Resources */,
+				CED3363B18815F1B00196AA2 /* Images.xcassets in Resources */,
+				CED336591881614200196AA2 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3363E18815F1B00196AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3364D18815F1B00196AA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED3361C18815F1B00196AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3363618815F1B00196AA2 /* BTSAppDelegate.m in Sources */,
+				CED336621881635B00196AA2 /* BTSCell.m in Sources */,
+				CED3363218815F1B00196AA2 /* main.m in Sources */,
+				CED3365F188162C200196AA2 /* BTSDetailViewController.m in Sources */,
+				CED3365C1881629500196AA2 /* BTSListViewController.m in Sources */,
+				CED3363918815F1B00196AA2 /* CrazyWheel.xcdatamodeld in Sources */,
+				CE4DD0C618832FEA00351867 /* BTSCoreDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3363C18815F1B00196AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3364F18815F1B00196AA2 /* CrazyWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED3364718815F1B00196AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED3361F18815F1B00196AA2 /* CrazyWheel */;
+			targetProxy = CED3364618815F1B00196AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED3362E18815F1B00196AA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED3362F18815F1B00196AA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CED3364B18815F1B00196AA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED3364C18815F1B00196AA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED3365018815F1B00196AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CED3365118815F1B00196AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED3365318815F1B00196AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyWheel/CrazyWheel-Prefix.pch";
+				INFOPLIST_FILE = "CrazyWheel/CrazyWheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CED3365418815F1B00196AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyWheel/CrazyWheel-Prefix.pch";
+				INFOPLIST_FILE = "CrazyWheel/CrazyWheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CED3365618815F1B00196AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyWheel.app/CrazyWheel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyWheel/CrazyWheel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazyWheelTests/CrazyWheelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CED3365718815F1B00196AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyWheel.app/CrazyWheel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyWheel/CrazyWheel-Prefix.pch";
+				INFOPLIST_FILE = "CrazyWheelTests/CrazyWheelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED3361B18815F1B00196AA2 /* Build configuration list for PBXProject "CrazyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3365018815F1B00196AA2 /* Debug */,
+				CED3365118815F1B00196AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3365218815F1B00196AA2 /* Build configuration list for PBXNativeTarget "CrazyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3365318815F1B00196AA2 /* Debug */,
+				CED3365418815F1B00196AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3365518815F1B00196AA2 /* Build configuration list for PBXNativeTarget "CrazyWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3365618815F1B00196AA2 /* Debug */,
+				CED3365718815F1B00196AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CED3363718815F1B00196AA2 /* CrazyWheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CED3363818815F1B00196AA2 /* CrazyWheel.xcdatamodel */,
+			);
+			currentVersion = CED3363818815F1B00196AA2 /* CrazyWheel.xcdatamodel */;
+			path = CrazyWheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CED3361818815F1B00196AA2 /* Project object */;
+}
